@@ -1,0 +1,40 @@
+{
+	"max7219_matrix|block": "8x8点阵显示屏",
+	"max7219_matrix.setup|block": "初始化点阵屏|点阵数(一般为1) $num|CS引脚 $cs|DIN引脚 $mosi|MISO引脚(已禁用) $miso|CLK引脚 $sck",
+	"max7219_matrix.for_4_in_1_modules|block":"旋转显示 $rotation| 反向显示 $reversed",
+	"max7219_matrix.scrollText|block": "显示滚动文本 $text|滚动速度 (ms) $delay|间隔时间 (ms) $endDelay",
+	"max7219_matrix.displayText|block": "显示文本(靠左) $text|左边距 $offset|显示前是否先清除 $clear",
+	"max7219_matrix.displayTextAlignRight|block": "显示文本(靠右) $text|显示前是否先清除 $clear",
+	
+	
+	"max7219_matrix.displayCustomCharacter|block": "显示自定义字符或图案|数组 $customCharArray|左边距 $offset|显示前是否先清除 $clear",
+    "max7219_matrix.getCustomCharacterArray|block": "获取自定义字符或图案|自定义数组 $text",
+    "max7219_matrix.addCustomChr|block": "添加自定义字符 $chr|数组 $customCharArray|到扩展字符库中",
+	"max7219_matrix.fontDemo|block":"间隔 $delay （ms）显示所有的字体",
+
+
+	"max7219_matrix.randomizeAll|block": "随机点亮像素",
+	"max7219_matrix.clearAll|block": "清除显示",
+	"max7219_matrix.fillAll|block": "点亮所有像素",
+	"max7219_matrix.brightnessAll|block": "设置点阵屏的亮度为 $level",
+	
+
+
+	"max7219_matrix.randomizeForOne|block": "使第 $index 个点阵屏随机点亮像素",
+	"max7219_matrix.clearForOne|block": "清除第 $index 个点阵屏显示",
+	"max7219_matrix.fillForOne|block": "打开第 $index 个点阵屏的所有像素",
+	"max7219_matrix.brightnessForOne|block": "设置第 $index 个点阵屏亮度为 $level",
+	"max7219_matrix.togglePower|block": "打开所有点阵屏 $status",
+
+
+	"max7219_matrix.setValueInMatrix|block": "设置8x8图案 %matrix |坐标x = $x |坐标y = $y |写入值为 $value",
+	"max7219_matrix.getEmptyMatrix|block": "空的8x8图案",
+	"max7219_matrix.displayLEDsForOne|block": "在第 $index个点阵屏上 |显示图案 $newMatrix",
+
+	
+	"max7219_matrix.toogleValueInMatrix|block": "反向显示8x8图案 %matrix |坐标x = $x |坐标y = $y",
+	"max7219_matrix.getFullMatrix|block": "满的8x8图案",
+	"max7219_matrix.displayLEDsToAll|block": "在所有的点阵屏上显示图案 $newMatrix",
+	"max7219_matrix.getValueFromMatrix|block": "获取8x8图案 %matrix |坐标x = $x |坐标y = $y 的电平"
+	
+}
