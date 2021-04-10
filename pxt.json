@@ -1,7 +1,7 @@
 {
     "name": "max7219_matrix",
     "version": "0.0.3",
-    "description": "MakeCode editor extension for single or multiple MAX7219 8x8 matrix LED modules",
+    "description": "8x8点阵屏扩展，支持多个点阵屏合并显示控制",
     "license": "MIT",
     "dependencies": {
         "core": "*"
